@@ -6,24 +6,24 @@ body {
   font-family: Lato, sans-serif;
 }
 
-.aaa {
+.picture-matrix {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
 
-.aaa img {
+.picture-matrix img {
   width: 100%;
 }
 
-.aaa,
+.picture-matrix,
 .more-inf {
   font-family: fantasy, cursive;
 }
 
 @media (max-width: 768px) {
-.aaa { 
+.picture-matrix { 
   text-align: center;
 }
 }

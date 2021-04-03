@@ -4,16 +4,27 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Todo App</title>
+  
+  <title>
+    Todo App
+  </title>
+  
   <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" 
-  rel="stylesheet" 
-  type="text/css">
-  <link rel="stylesheet" href="style.css">
+        rel="stylesheet" 
+        type="text/css">
+  
+        <link rel="stylesheet" 
+        href="style.css">
+
 </head>
 
 <body class="all-page">
+
 <div class="picture-matrix">
-    <img src="./eisenhower-matrix.jpg" alt="Picture: The Eisenhower matrix">
+
+    <img src="./eisenhower-matrix.jpg" 
+         alt="Picture: The Eisenhower matrix">
+
     <a class="more-inf" 
        href="https://goal-life.com/page/method/matrix-eisenhower">
        Want more details?
@@ -22,6 +33,7 @@
 
 <div class="centered-main-page-element">
   <section>
+
     <label for="new-task">
       Add Item
     </label>
@@ -34,27 +46,35 @@
       <button>
         Add
       </button>
+
     </div>
   </section>
 
 <section>
-  <h3>Todo</h3>
+
+  <h3>
+    Todo
+  </h3>
+
   <ul id="incomplete-tasks">
     <li>
       <input type="checkbox">
             <label class="task">
               Pay Bills
             </label>
+
       <input type="text">
              <button class="edit">
-                Edit
+              Edit
              </button>
+
       <button class="delete">
-             <img src="./remove.svg">
+         <img src="./remove.svg">
       </button>
     </li>
 
     <li class="edit-mode">
+
       <input type="checkbox">
         <label class="task">
            Go Shopping
@@ -66,6 +86,7 @@
       <button class="edit">
         Save
       </button>
+
       <button class="delete">
         <img src="./remove.svg">
       </button>
@@ -74,23 +95,30 @@
 </section>
 
 <section>
-  <h3>Completed</h3>
+
+  <h3>
+    Completed
+  </h3>
+
   <ul id="completed-tasks">
     <li>
       <input type="checkbox" checked>
         <label class="task">
           See the Doctor
         </label>
+
       <input type="text" 
              class="task">
         <button 
           class="edit">
           Edit
         </button>
+
       <button 
         class="delete">
         <img src="./remove.svg">
       </button>
+      
     </li>
   </ul>
 </section>

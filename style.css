@@ -109,7 +109,7 @@ label[for="new-task"] {
   margin: 0 0 20px;
 }
 
-input#new-task {
+input new-task {
   width: 318px;
 }
 
@@ -174,11 +174,13 @@ ul li input[type=text] {
   display: none;
 }
 
-ul li.edit-mode input[type=text] {
+ul li.edit-mode 
+input[type=text] {
   display: inline-block;
   width: 224px;
 }
 
-ul li.edit-mode label {
+ul li.edit-mode 
+label {
   display: none;
 }
